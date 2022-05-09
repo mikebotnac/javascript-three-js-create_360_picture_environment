@@ -109,7 +109,7 @@ function draw_room(index, add) {
       64,
       64
     ).toNonIndexed();
-    geometries[index].scale(-1, 1, 1);
+    geometries[index].scale(1, 1, 1);
   }
   var positions = geometries[index].attributes.position.array;
   var uvs = geometries[index].attributes.uv.array;
